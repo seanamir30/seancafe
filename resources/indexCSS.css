@@ -1,0 +1,150 @@
+.github-logo {
+    text-decoration: none;
+    color: white;
+}
+.snap{
+    position: relative;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y proximity;
+}
+.title{
+    background-color: #101010;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
+    grid-template-rows:20% 1fr 20%;
+    scroll-snap-align: start;
+}
+
+
+.another-page{
+    background: url('plm-bg.jpg');
+    box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
+    grid-template-rows:20% 1fr 20%;
+    scroll-snap-align: start;
+}
+.here-are-some{
+    height: 100%;
+    background-color: #101010;
+    color: white;
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
+    grid-template-rows:20% 1fr 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    scroll-snap-align: start;
+    font-size: 3vw;
+}
+.projects{
+
+}
+.botniamir{
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 5%;
+    grid-template-rows: 10% 1fr 5%;
+    height: 30vh;
+    background-color: #7289DA;
+    color: white;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 5%;
+    grid-template-rows: 10% 1fr 5%;
+    height: 30vh;
+}
+.warm{
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 1fr 5%;
+    grid-template-rows: 10% 1fr 1fr 1fr 10%;
+    height: 60vh;
+    background-color: orange;
+}
+.amir-title{
+    grid-area:2/2/3/2;
+}
+.bus-icon{
+    width:50%;
+}
+.bg-selenium{
+    background: url('green-bg-opt.jpg');
+}
+.selenium{
+    font-size: 3vw;
+    color: white;
+    grid-area:2/2/2/2;
+    align-self: center;
+}
+.selenium-description{
+    grid-area: 2/3/3/3;
+    color: white;
+    align-self: center;
+}
+
+.amir-description{
+    justify-content: center;
+    color: orange;
+    grid-area: 2/3/3/3;
+}
+.discord-logo{
+    width: 7.5%;
+    border-radius: 50%;
+}
+.botniamir-title{
+    font-size: 1.70vw;
+}
+.description{
+	grid-area:4/2/1/5;
+    justify-self: end;
+}
+.discord-img{
+    height: 100%;
+}
+.content{
+    grid-area: 2/2/2/2;
+}
+
+.greeting{
+    color: white;
+    grid-area: 2/2/4/4;
+    animation: fadeIn 2s;
+    
+}
+.plm{
+    grid-area:2/2/2/5;
+}
+.hey{
+    
+    font-size:3vw;
+}
+.plm-smaller{
+    font-size:5vw;
+    background: linear-gradient(to bottom,#ffe136 60%,white 40%) fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hey-smaller{
+    font-size:2vw;
+}
+
+.sean{
+    font-size: 10vw;
+    
+}
+.sean-smaller{
+    font-size: 5vw;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
