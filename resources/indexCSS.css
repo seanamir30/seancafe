@@ -18,7 +18,9 @@
     grid-template-rows:20% 1fr 20%;
     scroll-snap-align: start;
 }
-
+.accordion{
+    background-color: orange;
+}
 
 .another-page{
     background: url('plm-bg.jpg');
@@ -63,12 +65,29 @@
     grid-template-rows: 10% 1fr 5%;
     height: 30vh;
 }
+.warm-head{
+    
+    background: url('warm-bg.jpg');
+}
+.warm-head:hover{
+    box-shadow: inset 2000px 0 0 0 rgba(73, 73, 73, 0.5);
+
+}
+.warm-title{
+    grid-area:2/2/2/2;
+    font-size: 2vw;
+    font-family: 'Sigmar One', cursive;
+    color: white;
+    align-self: center;
+}
 .warm{
     display: grid;
-    grid-template-columns: 5% 1fr 1fr 1fr 1fr 5%;
-    grid-template-rows: 10% 1fr 1fr 1fr 10%;
-    height: 60vh;
-    background-color: orange;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows:33% 33% 33%;
+}
+
+.image img{
+    width: 100%;
 }
 .amir-title{
     grid-area:2/2/3/2;
@@ -107,6 +126,11 @@
 	grid-area:4/2/1/5;
     justify-self: end;
 }
+.description-ig{
+	grid-area:2/3/2/3;
+    color: white;
+    align-self: center;
+}
 .discord-img{
     height: 100%;
 }
@@ -119,6 +143,9 @@
     grid-area: 2/2/4/4;
     animation: fadeIn 2s;
     
+}
+.accordion-body{
+    background-color:pink;
 }
 .plm{
     grid-area:2/2/2/5;
